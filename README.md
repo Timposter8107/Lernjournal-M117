@@ -54,13 +54,45 @@ Um zwei PCs direkt miteinander zu verbinden:
 
 - Verwenden Sie ein Crossover Ethernetkabel.
 
-- Falls kein Crossover-Kabel vorhanden ist, schließen Sie die PCs einfach an einen Switch an.
+- Falls kein Crossover-Kabel vorhanden ist, schliessen Sie die PCs einfach an einen Switch an.
 
 - Stellen Sie manuell statische IP-Adressen für die Netzwerkkarten der PCs ein.
 
 - Überprüfen Sie Firewall-Einstellungen, um den Datenaustausch zu ermöglichen.
 
-##### 
+#### Regelung der Kommunikation
+
+##### Was bedeutet die Abkürzung CSMA/CD und was regelt sie?
+
+- CSMA/CD steht für Carrier Sense Multiple Access with Collision Detection. Es regelt den Zugriff auf ein gemeinsames Übertragungsmedium in Ethernet-Netzwerken und ermöglicht mehreren Geräten, den Kanal zu teilen. In modernen Netzwerken mit Switches ist diese Methode weniger relevant geworden.
+
+##### Was versteht man unter Kollisionen und warum muss jedes Gerät die Leitung ständig auf solche abhören?
+
+- In einem Netzwerk bezieht sich eine Kollision auf den Konflikt, der entsteht, wenn mehrere Geräte gleichzeitig versuchen, Daten über den gleichen Übertragungskanal zu senden.
+
+- Es ist wichtig, die Leitung auf solche abzuhören, damit die Daten korrekt gesendet und empfangen werden können und für eine effizientere Verbindung zu sorgen.
+
+##### Warum muss bei einem Rückzug infolge Kollisionsentdeckung ein Zufallszeit abgewartet werden, bis ein erneuter Sendeversuch gestartet werden kann?
+
+- Es muss eine Zufallszeit abgewartet werden, um weitere Kollisionen zu vermeiden.
+
+#### Materialwahl für das Übertragungsmedium
+
+##### Worin liegen die Unterschiede von Draht, Litze oder Glas (Vor-, Nachteile)?
+
+- Die Vorteile von Draht sind, dass sie Robust und langlebig sind und eine gute Leitfähigkeit haben.
+- Die Nachteile von Draht sind, dass sie weniger flexibel als Litze sind und bei wiederholtem biegen zum Brechen neigen.
+
+- Die Vorteile von Litze sind, dass sie flexibler als Draht sind und besser bei Anwendungen, bei denen Bewegung oder Biegung nötig ist.
+- Die Nachteile von Litze sind, dass sie weniger Leitfähig als Draht sind.
+
+- Die Vorteile von Glasfaser sind, dass sie eine hohe Bandbreite für Datenübertragung über große Entfernungen und ein Geringes Gewicht und geringe Dämpfung der Signalqualität haben und Immun gegen elektromagnetische Interferenzen sind.
+
+##### Wo setzt man welches Material ein?
+
+- Draht setzt man vor allem für die Hausverkabelung und in festen Installationen ein.
+
+- Litze ist gut geeignet für Anwendungen mit Bewegung und Biegung.
 
 ### Gelerntes
 
