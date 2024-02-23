@@ -30,4 +30,38 @@
 
 ##### Welche Netzwerktopologie treffen sie in aktuellen LANs an?
 
-- In aktuellen LANs ist die Stern-Topologie sehr verbreitet.
+- In aktuellen LANs ist die Stern-Topologie und die Baumtopologie sehr verbreitet.
+
+#### Kommunikation
+
+##### Was ist der Vorteil der modernen Ethernetverkabelung gegenüber dem historischen Yellow-Cable?
+
+Moderne Ethernetverkabelung bietet gegenüber historischem Yellow-Cable folgende Dinge:
+
+- Höhere Datenübertragungsraten.
+
+- Bessere Rauschunterdrückung.
+
+- Flexibilität und Einfachheit bei der Installation und Verwaltung.
+
+- Verbesserte Skalierbarkeit durch einfachen Anschluss neuer Geräte.
+
+- Effiziente Punkt zu Punkt Kommunikation durch Switchbasierte Netzwerktopologie.
+
+##### Sie möchten zwei PC’s direkt mit einem Ethernetkabel verbinden. Was muss dabei beachtet werden?
+
+Um zwei PCs direkt miteinander zu verbinden:
+
+- Verwenden Sie ein Crossover Ethernetkabel.
+
+- Falls kein Crossover-Kabel vorhanden ist, schließen Sie die PCs einfach an einen Switch an.
+
+- Stellen Sie manuell statische IP-Adressen für die Netzwerkkarten der PCs ein.
+
+- Überprüfen Sie Firewall-Einstellungen, um den Datenaustausch zu ermöglichen.
+
+##### 
+
+### Gelerntes
+
+Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches nur dann in einem Loop verbinden soll, wenn man die Switches richtig einstellt und sie auch fähig sind. Ausserdem wusste ich vor heute nicht, dass xDSL-Modems nicht nur einen WLAN-Accesspoint eingebaut haben, sondern auch eine Firewall, eine Switch und einen Router.
