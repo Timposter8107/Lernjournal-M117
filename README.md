@@ -1,4 +1,4 @@
-# Lernjournal-M117
+# Lernjournal-M117 Tim Kunz
 
 ## 23.02.24
 
