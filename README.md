@@ -97,3 +97,30 @@ Um zwei PCs direkt miteinander zu verbinden:
 ### Gelerntes
 
 Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches nur dann in einem Loop verbinden soll, wenn man die Switches richtig einstellt und sie auch fähig sind. Ausserdem wusste ich vor heute nicht, dass xDSL-Modems nicht nur einen WLAN-Accesspoint eingebaut haben, sondern auch eine Firewall, eine Switch und einen Router.
+
+## 01.03.2024
+
+### C_NETZWERKADRESSIERUNG_ANNEX
+
+#### 1. Beantworten sie folgende Fragen zum Thema Hostnamen:
+
+##### a. Gibt es Einschränkungen beim Hostnamen wie z.B. max. Anzahl Zeichen, Sonderzeichen, Gross-Kleinschreibung etc.
+
+- Der Hostname darf bis zu 63 Zeichen lang sein.
+- Erlaubt sind Buchstaben (a-z, A-Z), Ziffern (0-9) und der Bindestrich (-). Der Bindestrich darf jedoch nicht am Anfang oder Ende des Hostnamens stehen.
+- Leerzeichen und Sonderzeichen außer dem Bindestrich sind nicht erlaubt.
+- Hostnamen sind normalerweise nicht casesensitive, das bedeutet, "NoteBook" und "notebook" werden als identisch betrachtet.
+
+##### b. Wo kann man bei Microsoft WINDOWS 10/11 den Hostnamen eintragen?
+
+#### 2. Beantworten sie folgende Fragen zum Thema MAC-Adresse:
+
+#### 3. Beantworten sie folgende Fragen zum Thema IP-Adresse:
+
+#### 4. Erklären sie in ein paar Worten, was Subnetting für Vorteile hat
+
+- Subnetting ermöglicht die Aufteilung eines großen IP-Adressraums in kleinere Teile, was eine effizientere Nutzung der verfügbaren IP-Adressen ermöglicht.
+- Durch Subnetting können Netzwerke in isolierte Segmente unterteilt werden. Dies ermöglicht die Implementierung von Sicherheitsrichtlinien und den Schutz sensibler Daten.
+- Subnetting erleichtert die Organisation und Verwaltung von Netzwerken.
+- Durch die Begrenzung der Broadcast-Domänen auf einzelne Subnetze wird der Broadcast-Verkehr in einem Netzwerk minimiert.
+- Subnetting bietet eine skalierbare Lösung, da es ermöglicht, Netzwerke an veränderte Anforderungen anzupassen, ohne dabei die gesamte IP-Adressstruktur neu gestalten zu müssen.
