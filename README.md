@@ -129,13 +129,13 @@ Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches n
 
 ##### Fall 1
 
-   10    .    35    .     3    .   112
+10.35.3.112
    
-00001010 . 00100011 . 00000011 . 01110000
+00001010.00100011.00000011.01110000
 
-   255   .    0     .    0     .    0
+255.0.0.0
    
-11111111 . 00000000 . 00000000 . 00000000
+11111111.00000000.00000000.00000000
 
 10.35
 
@@ -145,6 +145,6 @@ Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches n
 
 16'777'216 -2 = 16'777'214
 
-10 .  0  .  0  .  0
+10.0.0.0
 
-10 . 255 . 255 . 255
+10.255.255.255
