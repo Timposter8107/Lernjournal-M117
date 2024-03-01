@@ -124,3 +124,20 @@ Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches n
 - Subnetting erleichtert die Organisation und Verwaltung von Netzwerken.
 - Durch die Begrenzung der Broadcast-Domänen auf einzelne Subnetze wird der Broadcast-Verkehr in einem Netzwerk minimiert.
 - Subnetting bietet eine skalierbare Lösung, da es ermöglicht, Netzwerke an veränderte Anforderungen anzupassen, ohne dabei die gesamte IP-Adressstruktur neu gestalten zu müssen.
+
+#### 5. In den folgenden Fallbeispielen (Fall-1 bis Fall-3) sind die Bilder nicht ganz komplett. Entweder fehlt das Dezimaläquivalent oder die binäre Darstellung. Ergänzen sie bitte:
+
+##### Fall 1
+
+   10    .    35    .     3    .   112
+00001010 . 00100011 . 00000011 . 01110000
+
+   255   .    0     .    0     .    0
+11111111 . 00000000 . 00000000 . 00000000
+
+10.35
+3.112
+2^24 = 
+16'777'216 -2 = 16'777'214
+10.0.0.0
+10.255.255.255
