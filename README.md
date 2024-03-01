@@ -148,3 +148,22 @@ Heute habe ich gelernt, dass man ein Netzwerk mit Ethernet Kabeln und Switches n
 10.0.0.0
 
 10.255.255.255
+
+#### 6. Wo kann man bei Microsoft Windows 10/11 den Standardgateway (DefaultRouter) eintragen?
+
+In Microsoft Windows 10 und Windows 11 wird der Standardgateway (Default Router) normalerweise über die Netzwerkeinstellungen konfiguriert.
+
+#### 7. Wichtige IPv4-Adressen:
+
+a. Wie lauten die drei für LANs reservierte IP-Adressbereiche?
+
+1. Der erste Bereich umfasst alle IP-Adressen von 10.0.0.0 bis 10.255.255.255 - für grössere Netzwerke
+2. Der zweite Bereich umfasst alle IP-Adressen von 172.16.0.0 bis 172.31.255.255 für mittelgrosse Netzwerke
+3. Der dritte bereich umfasst alle IP-Adressen von 192.168.0.0 bis 192.168.255.255 für kleinere Netzwerke
+
+b. Wie lautet die Loopbackadresse (Localhost) und was bezweckt sie?
+
+Die localhost Adresse lautet 127.0.0.1 und wird verwendet, um Netzwerkkommunikation mit dem eigenen Gerät zu simulieren, ohne dass die Daten das physische Netzwerk verlassen.
+
+c. Unter welchen Voraussetzungen werden sie eine APIPA-Adresse (Zero-Conf) erhalten? In welchem Bereich liegt diese?
+
